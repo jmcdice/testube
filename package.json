@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "start": "node version.js && ng serve --host 0.0.0.0 --port 8080",
+    "start": "node version.js && ng serve --host 0.0.0.0 --port 8080 --disable-host-check",
     "build": "node version.js && ng build --configuration production --build-optimizer --output-hashing=all",
     "publish": "npm run build && ngh --repo=https://GH_TOKEN@github.com/arbitrarydot/testube.git --name=\"JaxonWright\" --email=jaxonhwright@gmail.com --no-silent",
     "test": "ng test", 
